@@ -40,9 +40,9 @@ View Visualization: A 3D plot will be displayed with your device at the center a
 
 *Code Overview*
 
-ping(ip): Function that sends ARP and ICMP requests to a given IP address. It returns the response time if the host responds, otherwise it returns None.
+ - ping(ip): Function that sends ARP and ICMP requests to a given IP address. It returns the response time if the host responds, otherwise it returns None.
 
-create_3d_network(subnet): Main function that generates the network graph. It iterates over IP addresses, pings them, and adds responding hosts as nodes in a 3D network graph.
+ - create_3d_network(subnet): Main function that generates the network graph. It iterates over IP addresses, pings them, and adds responding hosts as nodes in a 3D network graph.
 
 Visual Output: The script uses matplotlib's 3D plotting capabilities to display the nodes and edges, coloring each node to differentiate your computer from other network devices.
 
